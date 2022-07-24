@@ -1,0 +1,159 @@
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-top: 8px;
+  background-color: rgb(201, 163, 59);
+}
+
+.conatiner {
+  width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.userList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.userItem {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-bottom: 46px;
+  border-left: 3px solid rgb(200, 118, 118);
+  background-color: rgb(255, 255, 255);
+}
+
+.userId {
+  display: block;
+  text-align: center;
+}
+
+.userFamName {
+  margin: 0;
+  text-align: center;
+  color: rgb(94, 94, 94);
+}
+
+.userName {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.userGeo {
+  background-color: #EFC636;
+}
+
+.userEmail {
+  display: block;
+  text-decoration: none;
+  background-color: #EFC636;
+}
+
+.userPhone {
+  display: block;
+  text-decoration: none;
+  background-color: #EFC636;
+}
+
+.userWebsite {
+  display: block;
+  text-decoration: none;
+  background-color: #EFC636;
+}
+
+.userAddress > span  {
+  display: block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(47, 96, 101);
+}
+
+.userLink {
+  text-decoration: none;
+}
+
+.userCompany > span {
+  display: block;
+  background-color: rgb(255, 71, 74);
+}
+
+.postList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.postItem {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  border: 3px solid rgb(200, 118, 118);
+  text-transform: capitalize;
+  background-color: #fff;
+}
+
+.postTitle {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(119, 123, 126);
+}
+
+.postBody {
+  font-style: italic;
+  margin: 0;
+}
+
+.commentList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.commentItem {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  border: 3px solid rgb(200, 118, 118);
+  text-transform: capitalize;
+  background-color: #fff;
+}
+
+.commentName {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(119, 123, 126);
+}
+
+.commentEmail {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.commentBody {
+  font-size: medium;
+  font-style: italic;
+  margin: 0;
+}
